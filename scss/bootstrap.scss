@@ -2,17 +2,12 @@
 $font-family-sans-serif: "Lato", sans-serif;
 
 // Colors
-$primary: #4555d2;
-$secondary: #cc2973;
+$primary: #f8b547;
+$secondary: #35353a;
 $dark: #191e47;
 $light: #f9fafe;
 $body-color: #494c52;
 $headings-color: $dark;
-
-// Navbar
-$navbar-nav-link-padding-x: 0.8rem;
-$navbar-padding-y: 1rem;
-$nav-link-font-weight: 700;
 
 // Spacers
 $spacer: 1rem !default;
@@ -27,6 +22,11 @@ $spacers: (
 	7: $spacer * 8,
 	8: $spacer * 12,
 ) !default;
+
+// Navbar
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$nav-link-font-weight: 700;
 
 // Buttons
 $button-radius: 50px;
@@ -43,6 +43,10 @@ $btn-padding-x: $button-padding-x;
 $btn-padding-x-lg: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 $navbar-toggler-border-radius: 5px;
+
+$navbar-toggler-border-radius: 5px;
+
+$headings-font-weight: bold;
 
 // Inputs
 $input-radius: 0px;
