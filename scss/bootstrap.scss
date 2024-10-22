@@ -2,10 +2,17 @@
 $font-family-sans-serif: "Lato", sans-serif;
 
 // Colors
-$primary: #9b3949;
-$secondary: #b8d12c;
-$dark: #552f2f;
-$body-bg: #fff;
+$primary: #4555d2;
+$secondary: #cc2973;
+$dark: #191e47;
+$light: #f9fafe;
+$body-color: #494c52;
+$headings-color: $dark;
+
+// Navbar
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$nav-link-font-weight: 700;
 
 // Spacers
 $spacer: 1rem !default;
