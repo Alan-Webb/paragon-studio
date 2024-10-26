@@ -11,4 +11,5 @@ function userScroll() {
 	});
 }
 
+// Event listeners
 document.addEventListener("DOMContentLoaded", userScroll);
