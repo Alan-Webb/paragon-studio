@@ -9,7 +9,7 @@ function incrementStats() {
 			const target = +counter.getAttribute("data-bs-target");
 			const c = +counter.innerText;
 
-			const increment = target / 200;
+			const increment = target / 20000;
 
 			if (c < target) {
 				counter.innerText = Math.ceil(c + increment);
