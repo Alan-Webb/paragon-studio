@@ -1,6 +1,6 @@
 // Header
 .header {
-	min-height: 1000px;
+	min-height: 64rem;
 	background: linear-gradient(
 			to bottom right,
 			rgba(0, 0, 0, 0.6),
@@ -8,4 +8,9 @@
 		),
 		url("../images/header-background.jpg") center center no-repeat;
 	background-size: cover;
+}
+
+.header .slide {
+	width: 70%;
+	margin: 0 auto;
 }
