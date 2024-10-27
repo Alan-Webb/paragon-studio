@@ -3,7 +3,7 @@ $font-family-sans-serif: "Lato", sans-serif;
 
 // Colors
 $primary: #e09c2f;
-$secondary: #0e4209c9;
+$secondary: #a32162c9;
 $light: #fbf9f5;
 $dark: #000000;
 $body-bg: $light;
@@ -45,5 +45,14 @@ $btn-padding-x-sm: $button-padding-x;
 $navbar-toggler-border-radius: 5px;
 
 $headings-font-weight: bold;
+
+// Inputs
+$input-radius: 0px;
+$input-btn-padding-y: 1rem;
+$input-btn-padding-x: 1rem;
+$input-border-radius: $input-radius;
+$input-border-radius-sm: $input-radius;
+$input-border-radius-lg: $input-radius;
+$input-border-color: #666;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
