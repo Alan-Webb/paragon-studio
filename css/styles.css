@@ -4,12 +4,12 @@
 
 .header {
   min-height: 64rem;
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header-background.jpg") center center no-repeat;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header.jpg") center center no-repeat;
   background-size: cover;
 }
 
 .header .slide {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
