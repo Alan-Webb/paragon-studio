@@ -3,7 +3,7 @@
 }
 
 .header {
-  min-height: 64rem;
+  min-height: 58rem;
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header.jpg") center center no-repeat;
   background-size: cover;
 }

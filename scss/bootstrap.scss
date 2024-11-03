@@ -3,9 +3,8 @@ $font-family-sans-serif: "Lato", sans-serif;
 
 // Colors
 $primary: #e09c2f;
-$secondary: rgb(138, 120, 120);
-$light: #fbf9f5;
-$body-bg: $light;
+$secondary: #e7e1d5;
+$body-bg: $secondary;
 
 // Spacers
 $spacer: 1rem !default;
@@ -40,7 +39,7 @@ $btn-padding-x: $button-padding-x;
 $btn-padding-x-lg: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 
-$navbar-toggler-border-radius: 5px;
+$navbar-toggler-border-radius: 0.5rem;
 
 $headings-font-weight: bold;
 
