@@ -3,7 +3,7 @@ a {
 }
 
 .navbar-opacity {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .header {
@@ -21,5 +21,39 @@ a {
   .header {
     height: 600px !important;
     min-height: 600px !important;
+  }
+}
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: var(--hover-shadow-color);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn:hover {
+  background-color: var(--highlight-color);
+}
+
+.to-top-btn img {
+  margin-bottom: 0.25rem;
+  width: 18px;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .to-top-btn {
+    right: 3.5rem;
   }
 }
