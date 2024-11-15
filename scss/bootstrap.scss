@@ -21,13 +21,12 @@ $spacers: (
 ) !default;
 
 // Navbar
-$navbar-nav-link-padding-x: 0.8rem;
 $navbar-padding-y: 1rem;
 
 // Buttons
-$button-radius: 50px;
-$button-padding-x: 30px;
-$button-padding-y: 10px;
+$button-radius: 3.125rem;
+$button-padding-x: 1.875rem;
+$button-padding-y: 0.625rem;
 
 $btn-border-radius: $button-radius;
 $btn-border-radius-sm: $button-radius;
@@ -44,12 +43,12 @@ $navbar-toggler-border-radius: 0.5rem;
 $headings-font-weight: bold;
 
 // Inputs
-$input-radius: 0px;
+$input-radius: 0rem;
 $input-btn-padding-y: 1rem;
 $input-btn-padding-x: 1rem;
 $input-border-radius: $input-radius;
 $input-border-radius-sm: $input-radius;
 $input-border-radius-lg: $input-radius;
-$input-border-color: #666;
+$input-border-color: #c72525;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
