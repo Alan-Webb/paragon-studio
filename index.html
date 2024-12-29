@@ -16,6 +16,7 @@
 			referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" href="./images/favicon.png" />
 		<title>Paragon Studio</title>
 	</head>
 	<body>
@@ -438,9 +439,11 @@
 							</ul>
 						</div>
 						<div class="col-md-5 offset-md-1">
-							<form>
+							<form action="https://formspree.io/f/xwppqeyk" method="POST">
 								<div class="my-4">
+									<label for="name"></label>
 									<input
+										name="name"
 										id="name"
 										type="text"
 										class="form-control bg-light"
@@ -449,7 +452,9 @@
 										autocomplete="name" />
 								</div>
 								<div class="mb-4">
+									<label for="email"></label>
 									<input
+										name="email"
 										id="email"
 										type="email"
 										class="form-control bg-light"
@@ -458,7 +463,9 @@
 										autocomplete="email" />
 								</div>
 								<div class="mb-4">
+									<label for="phone"></label>
 									<input
+										name="phone"
 										id="phone"
 										type="text"
 										class="form-control bg-light"
@@ -467,6 +474,7 @@
 										autocomplete="tel-local" />
 								</div>
 								<div class="mb-5">
+									<label for="interested"></label>
 									<select
 										name="interested"
 										id="interested"
