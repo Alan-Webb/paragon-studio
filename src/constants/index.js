@@ -76,7 +76,7 @@ export const TEACHER_PROFILES = [
 		id: 1,
 		name: "Lillian Chen",
 		description:
-			"Lillian Chen is a highly respected martial artist specializing in kung-fu and tai chi, with a profound understanding of both the external and internal aspects of these ancient arts. With over four decades of experience, she brings a unique blend of strength, precision, and fluidity to her teachings, guiding students through complex forms, breathing techniques, and energy work. Lillian is known for her patient, detail-oriented approach, ensuring that students build a solid foundation while also appreciating the deeper philosophies behind each movement. Her expertise helps practitioners connect mind, body, and spirit, whether they seek martial skill, physical conditioning, or mental clarity.",
+			"Lillian Chen is a highly respected martial artist specializing in kung-fu and tai chi, with a profound understanding of both the external and internal aspects of these ancient arts. With over four decades of experience, she brings a unique blend of strength, precision, and fluidity to her teachings, guiding students through complex forms, breathing techniques, and energy work.",
 		image: teacher1,
 		link: "#",
 	},
@@ -84,7 +84,7 @@ export const TEACHER_PROFILES = [
 		id: 2,
 		name: "Amy Van Halen",
 		description:
-			"Amy Van Halen is an energetic and skilled martial artist specializing in wushu and Chinese boxing. With her background in the acrobatic techniques of wushu and the powerful strikes of Chinese boxing, Amy brings a dynamic and captivating style to her training sessions. Known for her precision and athleticism, she excels at teaching complex forms, powerful strikes, and the agility that defines these arts. Amy’s teaching method combines traditional discipline with modern training insights, helping students build flexibility, speed, and explosive power. Her enthusiasm and dedication inspire students to push their boundaries, making her classes both challenging and deeply rewarding.",
+			"Amy Van Halen is an energetic and skilled martial artist specializing in wushu and Chinese boxing. With her background in the acrobatic techniques of wushu and the powerful strikes of Chinese boxing, Amy brings a dynamic and captivating style to her training sessions. Known for her precision and athleticism, she excels at teaching complex forms, powerful strikes, and the agility that defines these arts.",
 		image: teacher2,
 		link: "#",
 	},
@@ -92,7 +92,7 @@ export const TEACHER_PROFILES = [
 		id: 3,
 		name: "Denzel James",
 		description:
-			"Denzel James is a skilled taekwondo and boxing instructor renowned for his focus on power, speed, and strategic movement. With his unique blend of taekwondo’s high-flying kicks and boxing’s precise punches, Denzel brings versatile and highly effective approach to martial arts training. His teaching emphasizes balance, agility, and tactical awareness, helping students develop not only 						physical skills but also a keen sense of timing and distance. Known for his motivating and hands-on coaching style, Denzel pushes his students to unlock their potential, empowering them with both the confidence and skills to succeed in any competitive or self-defense scenario.",
+			"Denzel James is a skilled taekwondo and boxing instructor renowned for his focus on power, speed, and strategic movement. With his unique blend of taekwondo’s high-flying kicks and boxing’s precise punches, Denzel brings versatile and highly effective approach to martial arts training. His teaching emphasizes balance, agility, and tactical awareness, helping students develop not only physical skills but also a keen sense of timing and distance.",
 		image: teacher3,
 		link: "#",
 	},
@@ -100,7 +100,7 @@ export const TEACHER_PROFILES = [
 		id: 4,
 		name: "Kato Maeda",
 		description:
-			"Kato Maeda is a dedicated martial artist specializing in karate and ju-jutsu, known for his disciplined approach and in-depth understanding of both striking and grappling techniques. With years of experience, Kato combines the powerful, precise strikes of karate with the fluid, effective grappling techniques of ju-jitsu to teach a well-rounded martial arts skill set. His instruction 	emphasizes proper form, control, and practical application, helping students build a foundation that is both technically strong and adaptable. Kato’s calm, focused teaching style is perfect for all levels, encouraging students to achieve their personal best while gaining confidence and self-defense skills.",
+			"Kato Maeda is a dedicated martial artist specializing in karate and ju-jutsu, known for his disciplined approach and in-depth understanding of both striking and grappling techniques. With years of experience, Kato combines the powerful, precise strikes of karate with the fluid, effective grappling techniques of ju-jitsu to teach a well-rounded martial arts skill set. His instruction 	emphasizes proper form, control, and practical application, helping students build a foundation that is both technically strong and adaptable.",
 		image: teacher4,
 		link: "#",
 	},
@@ -108,7 +108,7 @@ export const TEACHER_PROFILES = [
 		id: 5,
 		name: "Barry West",
 		description:
-			"Barry West is a seasoned Muay Thai and kickboxing specialist, known for his intense, high-energy training style and deep knowledge of striking arts. With extensive experience in both disciplines, Barry combines the powerful, close-range strikes of Muay Thai with the dynamic footwork and rapid combinations of kickboxing. His teaching emphasizes strength, endurance, and technique, 						helping students build a strong foundation in both offense and defense. Barry’s coaching approach is hands-on and highly motivating, pushing his students to develop resilience, sharpen their reflexes, and achieve peak physical conditioning. His classes provide an empowering environment where students learn the power and precision of Muay Thai and kickboxing.",
+			"Barry West is a seasoned Muay Thai and kickboxing specialist, known for his intense, high-energy training style and deep knowledge of striking arts. With extensive experience in both disciplines, Barry combines the powerful, close-range strikes of Muay Thai with the dynamic footwork and rapid combinations of kickboxing. His teaching emphasizes strength, endurance, and technique, helping students build a strong foundation in both offense and defense.",
 		image: teacher5,
 		link: "#",
 	},
@@ -116,7 +116,7 @@ export const TEACHER_PROFILES = [
 		id: 6,
 		name: "Yuiko Nakagawa",
 		description:
-			"Yuiko Nakagawa is an accomplished martial artist specializing in kendo, Iaido, and traditional Japanese weaponry, bringing both skill and reverence to these centuries-old practices. With a deep understanding of swordsmanship and discipline, Yuiko teaches students the precise techniques and mindful focus required to master Japanese weapons arts. Her instruction delves into the 					fundamentals of movement, timing, and the meditative aspects of iaido and kendo, creating a balanced learning experience that values both skill and spirit. Known for her calm and insightful approach, Yuiko guides students in cultivating a profound respect for the art, helping them develop not only technique but also mental clarity and composure.",
+			"Yuiko Nakagawa is an accomplished martial artist specializing in kendo, Iaido, and traditional Japanese weaponry, bringing both skill and reverence to these centuries-old practices. With a deep understanding of swordsmanship and discipline, Yuiko teaches students the precise techniques and mindful focus required to master Japanese weapons arts.",
 		image: teacher6,
 		link: "#",
 	},
