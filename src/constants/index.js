@@ -1,4 +1,5 @@
 import hero from "../assets/hero.jpg";
+
 import discover1 from "../assets/discover-1.jpg";
 import discover2 from "../assets/discover-2.jpg";
 import discover3 from "../assets/discover-3.jpg";
@@ -9,6 +10,8 @@ import teacher3 from "../assets/teacher3.jpg";
 import teacher4 from "../assets/teacher4.jpg";
 import teacher5 from "../assets/teacher5.jpg";
 import teacher6 from "../assets/teacher6.jpg";
+
+import aboutImage from "../assets/about.jpg";
 
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
@@ -121,6 +124,13 @@ export const TEACHER_PROFILES = [
 		link: "#",
 	},
 ];
+
+export const ABOUT_CONTENT = {
+	title: "Why Choose Us?",
+	image: aboutImage,
+	description:
+		"Our platform is built on nearly three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
+};
 
 export const REVIEWS = {
 	text: "Hear what our clients have to say about their experiences with Paragon Studio. We take pride in our work and are committed to delivering the best results to our students.",
