@@ -18,9 +18,6 @@ const Navbar = () => {
 						<img src={logo} alt="Paragon Studio" />
 					</a>
 				</div>
-				<span className="uppercase font-bold text-3xl mr-100">
-					Paragon Studio
-				</span>
 				{/* Toggle Button */}
 				<div className="md:hidden">
 					<button

@@ -71,7 +71,7 @@ export const DISCOVER_CONTENT = [
 	},
 ];
 
-export const TEACHERS_PROFILES = [
+export const TEACHER_PROFILES = [
 	{
 		id: 1,
 		name: "Lillian Chen",
