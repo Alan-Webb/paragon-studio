@@ -4,6 +4,7 @@ import Discover from "./components/Discover";
 import Teachers from "./components/Teachers";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
+import Contact from "./components/Contact";
 
 const App = () => {
 	return (
@@ -14,6 +15,7 @@ const App = () => {
 			<Teachers />
 			<About />
 			<Reviews />
+			<Contact />
 		</main>
 	);
 };
