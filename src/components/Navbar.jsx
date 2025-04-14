@@ -1,63 +1,87 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import logo from "../assets/logo.png";
 import {FaTimes, FaBars} from "react-icons/fa";
 import {LINKS} from "../constants";
 
-const Navbar = () => {
+const Navbar = (e) => {
 	const [isOpen, setIsOpen] = useState(false);
 
-	const toggleMenu = () => {
-		setIsOpen(!isOpen);
+	useEffect(() => {
+		if (isOpen) {
+			document.body.style.overflow = "hidden";
+		} else {
+			document.body.style.overflow = "auto";
+		}
+	}, [isOpen]);
+
+	useEffect(() => {
+		const handleScroll = (e) => {
+			if (isOpen) {
+				e.preventDefault();
+			}
+		};
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, [isOpen]);
+
+	const handleLinkClick = (e, id) => {
+		e.preventDefault();
+		setIsOpen(false);
+		const offset = -70;
+		const element = document.getElementById(id);
+		const elementPosition =
+			element.getBoundingClientRect().top + window.scrollY;
+		const offsetPosition = elementPosition + offset;
+
+		window.scrollTo({
+			top: offsetPosition,
+			behavior: "smooth",
+		});
 	};
 
 	return (
-		<nav className="border-b-2">
-			<div className="max-w-7xl mx-auto flex justify-between items-center py-8">
-				<div className="pl-2">
-					<a href="#">
-						<img src={logo} alt="Paragon Studio" />
-					</a>
+		<>
+			<nav className="fixed z-10 w-full border-b border-black-50/10 bg-emerald-600">
+				<div className="container mx-auto px-4">
+					<div className="flex h-16 items-center justify-between">
+						<div className="flex items-center">
+							<a href="/">
+								<img src={logo} alt="Paragon Studio" />
+							</a>
+						</div>
+						<div>
+							<button
+								onClick={() => setIsOpen(!isOpen)}
+								type="button"
+								className="inline-flex items-center justify-center bg-emerald-950 p-2 text-orange-50">
+								<FaBars className="h-6 w-6" />
+							</button>
+						</div>
+					</div>
 				</div>
-				{/* Toggle Button */}
-				<div className="md:hidden">
+			</nav>
+			{isOpen && (
+				<div className="fixed inset-0 z-20 flex flex-col space-y-8 bg-emerald-950 px-20 pt-20 text-5xl font-bold uppercase text-emerald-100 lg:text-6xl">
 					<button
-						onClick={toggleMenu}
-						className="text-2xl pr-2 focus:outline-none"
-						aria-label={isOpen ? "Close Menu" : "Open Menu"}>
-						{isOpen ? (
-							<FaTimes className="h-6 w-6" />
-						) : (
-							<FaBars className="h-6 w-6" />
-						)}
+						onClick={() => setIsOpen(false)}
+						type="button"
+						className="absolute right-4 top-4 rounded-full bg-emerald-900 p-2 text-orange-50 lg:right-20">
+						<FaTimes className="h-8 w-8" />
 					</button>
-				</div>
-				{/* Desktop Menu */}
-				<div className="hidden md:flex space-x-8 md:space-x-4 pr-2">
 					{LINKS.map((link, index) => (
 						<a
 							key={index}
-							href={link.link}
-							className="uppercase text-sm font-semibold hover:text-white">
+							href={`#${link.id}`}
+							onClick={() => handleLinkClick(e, link.id)}
+							className="transition-colors duration-500 hover:text-orange-500">
 							{link.name}
 						</a>
 					))}
 				</div>
-			</div>
-			{/* Mobile Menu */}
-			<div
-				className={`${
-					isOpen ? "block" : "hidden"
-				} md:hidden absolute w-full py-5 px-4 mt-2 border-b-4`}>
-				{LINKS.map((link, index) => (
-					<a
-						key={index}
-						href={link.link}
-						className="uppercase text-lg font-semibold block py-2 tracking-wide hover:text-white">
-						{link.name}
-					</a>
-				))}
-			</div>
-		</nav>
+			)}
+		</>
 	);
 };
 

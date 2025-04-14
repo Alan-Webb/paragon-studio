@@ -3,8 +3,6 @@
 
 :root {
 	font-family: "Inter", sans-serif;
-	scroll-behavior: smooth;
-
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
