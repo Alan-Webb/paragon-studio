@@ -1,4 +1,9 @@
-import hero from "../assets/hero.jpg";
+import teacherImg1 from "../assets/teacherImg1.jpg";
+import teacherImg2 from "../assets/teacherImg2.jpg";
+import teacherImg3 from "../assets/teacherImg3.jpg";
+import teacherImg4 from "../assets/teacherImg4.jpg";
+import teacherImg5 from "../assets/teacherImg5.jpg";
+import teacherImg6 from "../assets/teacherImg6.jpg";
 
 import discover1 from "../assets/discover-1.jpg";
 import discover2 from "../assets/discover-2.jpg";
@@ -21,21 +26,30 @@ import user5 from "../assets/user5.jpg";
 import user6 from "../assets/user6.jpg";
 
 export const LINKS = [
-	{ name: "About", id: "about" },
-  { name: "Discover", id: "discover" },
-  { name: "Projects", id: "projects" },
-  { name: "Pricing", id: "pricing" },
-  { name: "Teachers", id: "teachers" },
-  { name: "Reviews", id: "reviews" },
-  { name: "FAQ", id: "faq" },
-  { name: "Contact", id: "contact" },
+	{name: "About", id: "about"},
+	{name: "Discover", id: "discover"},
+	{name: "Projects", id: "projects"},
+	{name: "Pricing", id: "pricing"},
+	{name: "Teachers", id: "teachers"},
+	{name: "Reviews", id: "reviews"},
+	{name: "FAQ", id: "faq"},
+	{name: "Contact", id: "contact"},
 ];
 
-export const HERO_CONTENT = {
-	title: "Paragon Studio",
-	subtitle:
-		"Explore our training videos and master every move in your own time",
-	image: hero,
+export const HERO_IMAGES = [
+	{image: teacherImg1, alt: "Paragon teacher Amy Van Halen"},
+	{image: teacherImg2, alt: "Paragon teacher Denzel James"},
+	{image: teacherImg3, alt: "Paragon teacher Kato Maeda"},
+	{image: teacherImg4, alt: "Paragon teacher Lillian Chen"},
+	{image: teacherImg5, alt: "Paragon teacher Barry West"},
+	{image: teacherImg6, alt: "Paragon teacher Yuiko Nakagawa"},
+];
+
+export const ABOUT_CONTENT = {
+	title: "Why Choose Us?",
+	image: aboutImage,
+	description:
+		"Our platform is built on nearly three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
 };
 
 export const DISCOVER_CONTENT = [
@@ -112,13 +126,6 @@ export const TEACHER_PROFILES = [
 		link: "#",
 	},
 ];
-
-export const ABOUT_CONTENT = {
-	title: "Why Choose Us?",
-	image: aboutImage,
-	description:
-		"Our platform is built on nearly three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
-};
 
 export const REVIEWS = {
 	text: "Hear what our clients have to say about their experiences with Paragon Studio. We take pride in our work and are committed to delivering the best results to our students.",

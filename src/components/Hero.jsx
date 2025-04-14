@@ -1,20 +1,33 @@
-import {HERO_CONTENT} from "../constants";
+import {HERO_IMAGES} from "../constants";
+import {IoMdArrowRoundForward} from "react-icons/io";
+import heroImg from "../assets/heroImg.jpg";
 
 const Hero = () => {
 	return (
-		<section className="max-w-7xl mx-auto border-b-2">
-			<div className="flex flex-col items-center my-20">
-				<h1 className="text-6xl lg:text-[8rem] text-center p-2 uppercase font-bold">
-					{HERO_CONTENT.title}
+		<section className="flex min-h-screen flex-wrap items-center bg-emerald-950 text-orange-50">
+			<div className="w-full p-8 md:w-1/2">
+				<div className="mb-4 flex space-x-5">
+					{HERO_IMAGES.map((teacher, index) => (
+						<img
+							key={index}
+							src={teacher.image}
+							alt={teacher.name}
+							className="h-15 w-15 rounded-full border-2 border-orange-50"
+						/>
+					))}
+				</div>
+				<h1 className="text-4xl tracking-tighter md:text-5xl lg:text-7xl">
+					Explore our training videos and
+					<span className="text-orange-500"> master every move</span> in your
+					own time
 				</h1>
-				<p className="lg:mt-6 text-3xl mb-4 font-medium tracking-tighter">
-					{HERO_CONTENT.subtitle}
-				</p>
-				<img
-					src={HERO_CONTENT.image}
-					className="w-full h-[65vh] object-cover rounded-2xl p-2"
-					alt="students practicing wushu form"
-				/>
+				<button className="mt-8 flex items-center gap-2 rounded-full bg-emerald-900 px-4 py-3 hover:bg-emerald-800">
+					<span>Learn More</span>
+					<IoMdArrowRoundForward />
+				</button>
+			</div>
+			<div className="w-full md:w-1/2 lg:p-8">
+				<img src={heroImg} alt="Paragon Studio HQ" className="h-auto w-full rounded-xl" />
 			</div>
 		</section>
 	);

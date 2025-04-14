@@ -48,8 +48,11 @@ const Navbar = (e) => {
 					<div className="flex h-16 items-center justify-between">
 						<div className="flex items-center">
 							<a href="/">
-								<img src={logo} alt="Paragon Studio" />
+								<img src={logo} alt="Paragon Studio logo" />
 							</a>
+							<span className="text-4xl text-black font-bold uppercase ml-6">
+								Paragon Studio
+							</span>
 						</div>
 						<div>
 							<button
