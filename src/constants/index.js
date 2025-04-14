@@ -21,26 +21,14 @@ import user5 from "../assets/user5.jpg";
 import user6 from "../assets/user6.jpg";
 
 export const LINKS = [
-	{
-		name: "Discover",
-		link: "#discover",
-	},
-	{
-		name: "Teachers",
-		link: "#teachers",
-	},
-	{
-		name: "About",
-		link: "#about",
-	},
-	{
-		name: "Reviews",
-		link: "#reviews",
-	},
-	{
-		name: "Contact",
-		link: "#contact",
-	},
+	{ name: "About", id: "about" },
+  { name: "Discover", id: "discover" },
+  { name: "Projects", id: "projects" },
+  { name: "Pricing", id: "pricing" },
+  { name: "Teachers", id: "teachers" },
+  { name: "Reviews", id: "reviews" },
+  { name: "FAQ", id: "faq" },
+  { name: "Contact", id: "contact" },
 ];
 
 export const HERO_CONTENT = {
