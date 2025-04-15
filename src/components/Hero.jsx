@@ -27,7 +27,7 @@ const Hero = () => {
 				</button>
 			</div>
 			<div className="w-full md:w-1/2 lg:p-8">
-				<img src={heroImg} alt="Paragon Studio HQ" className="h-auto w-full rounded-xl" />
+				<img src={heroImg} alt="Paragon Studio HQ" className="h-auto w-full rounded-xl border border-orange-50" />
 			</div>
 		</section>
 	);
