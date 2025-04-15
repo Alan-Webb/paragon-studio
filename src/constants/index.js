@@ -67,7 +67,7 @@ export const ABOUT_CONTENT = {
 		},
 	],
 	aboutText:
-		"Our platform is built on over three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
+		"Founded in 1993 by Sifu Amy VanHalen, our platform is built on over three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
 };
 
 export const DISCOVER_CONTENT = [
