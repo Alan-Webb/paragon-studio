@@ -74,25 +74,28 @@ export const DISCOVER_CONTENT = [
 	{
 		id: 1,
 		title: "Enhance Your Skills",
+		content: "Tailored strategies to meet your unique training needs.",
 		description:
 			"Our martial arts training videos provide an immersive learning experience that allows you to enhance your skills from anywhere, at your own pace. Each video is crafted by expert instructors to	guide you through essential techniques, drills, and strategies,	helping you build strength, precision, and confidence. Whether you're a beginner or an experienced martial artist, these videos	are designed to challenge you, improve your form, and deepen your understanding of martial arts principles.",
-		image: discover1,
+		imgSrc: discover1,
 		alt: "Wushu student performing high kick",
 	},
 	{
 		id: 2,
 		title: "Expert Instructors",
+		content: "Get expert advice and insights to boost progress.",
 		description:
 			"Our martial arts training videos are led by expert	instructors with years of experience and proven track	records in various martial arts disciplines. Each instructor brings a wealth of knowledge and a deep understanding of	their craft, guiding you with clear demonstrations, and detailed explanations, expert tips. Their approach is not just about teaching techniques; it’s about helping you understand the 'why' behind every move, creating a learning experience that’s personal, motivational, and results-driven. By training with top-tier instructors, you gain direct access to their insights and skills, helping you reach your goals faster and more effectively.",
-		image: discover2,
+		imgSrc: discover2,
 		alt: "Karate student performing kata",
 	},
 	{
 		id: 3,
 		title: "In-depth Technical Break-down",
+		content: "Optimize your training for maximum results.",
 		description:
 			"Our videos provide a comprehensive breakdown of martial arts techniques, allowing you to master both foundational and advanced skills. We go beyond surface-level instruction to offer step-by-step guidance, explaining each movement in precise detail. You’ll learn not just how to perform techniques, but also how to refine them, avoid common mistakes, and optimize your form. This depth of instruction makes complex skills easier to grasp, so you can build confidence as you progress. Whether you’re focusing on striking, footwork, or defense, our technical breakdowns help you advance with clarity and precision.",
-		image: discover3,
+		imgSrc: discover3,
 		alt: "Muay Thai student being drilled by instructor",
 	},
 ];
