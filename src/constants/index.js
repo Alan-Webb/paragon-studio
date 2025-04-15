@@ -5,6 +5,10 @@ import teacherImg4 from "../assets/teacherImg4.jpg";
 import teacherImg5 from "../assets/teacherImg5.jpg";
 import teacherImg6 from "../assets/teacherImg6.jpg";
 
+import aboutImg1 from "../assets/aboutImg1.jpg";
+import aboutImg2 from "../assets/aboutImg2.jpg";
+import aboutImg3 from "../assets/aboutImg3.jpg";
+
 import discover1 from "../assets/discover-1.jpg";
 import discover2 from "../assets/discover-2.jpg";
 import discover3 from "../assets/discover-3.jpg";
@@ -15,8 +19,6 @@ import teacher3 from "../assets/teacher3.jpg";
 import teacher4 from "../assets/teacher4.jpg";
 import teacher5 from "../assets/teacher5.jpg";
 import teacher6 from "../assets/teacher6.jpg";
-
-import aboutImage from "../assets/about.jpg";
 
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
@@ -47,9 +49,25 @@ export const HERO_IMAGES = [
 
 export const ABOUT_CONTENT = {
 	title: "Why Choose Us?",
-	image: aboutImage,
-	description:
-		"Our platform is built on nearly three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
+	aboutImages: [
+		{
+			src: aboutImg1,
+			alt: "Wushu training",
+			delay: 0.1,
+		},
+		{
+			src: aboutImg2,
+			alt: "Muay Thai training",
+			delay: 0.2,
+		},
+		{
+			src: aboutImg3,
+			alt: "Traditional weapons training",
+			delay: 0.3,
+		},
+	],
+	aboutText:
+		"Our platform is built on over three decades of combined experience in martial arts education and training. We understand what it takes to master each technique, and our instructors bring a wealth of real-world knowledge to every lesson. With deep expertise across multiple disciplines our instructors deliver authentic, effective techniques. Each video is crafted to impart detailed insights and practical skills, empowering you with knowledge grounded in tradition and practice.",
 };
 
 export const DISCOVER_CONTENT = [
