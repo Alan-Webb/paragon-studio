@@ -12,7 +12,7 @@ const Hero = () => {
 							key={index}
 							src={teacher.image}
 							alt={teacher.name}
-							className="h-15 w-15 rounded-full border-2 border-orange-50"
+							className="h-12 w-12 rounded-full border-2 border-orange-50"
 						/>
 					))}
 				</div>
