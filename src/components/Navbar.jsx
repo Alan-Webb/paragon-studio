@@ -27,7 +27,6 @@ const Navbar = (e) => {
 	}, [isOpen]);
 
 	const handleLinkClick = (e, id) => {
-		e.preventDefault();
 		setIsOpen(false);
 		const offset = -70;
 		const element = document.getElementById(id);
