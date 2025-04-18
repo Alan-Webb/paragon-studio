@@ -106,42 +106,39 @@ export const DISCOVER_CONTENT = [
 
 export const COURSES = [
 	{
-		courseCode: "2236",
 		title: "Beginner Training",
 		description: "Martial arts fundamentals.",
 		details:
-			"Our beginner-level courses are designed to lay a strong foundation in martial arts for those with little to no prior experience. Students will be introduced to essential principles such as basic stances, footwork, and striking techniques across various disciplines including karate, kung fu, taekwondo, and boxing. Each lesson focuses on proper form, balance, and coordination, while also emphasizing discipline and body awareness. The goal is to build confidence, improve physical fitness, and prepare students for more complex movements and concepts.",
+			"Our beginner-level courses are designed to lay a strong foundation in martial arts for those with little to no prior experience. Students will be introduced to essential principles such as basic stances, footwork, and striking techniques across various disciplines including karate, kung fu, taekwondo, and boxing.",
 		imageUrl: course1,
-		figures: {
+		specifics: {
 			experience: "None",
 			duration: "12 months",
 			outcome: "Foundation",
 		},
 	},
 	{
-		courseCode: "9193",
 		title: "Intermediate Training",
 		description: "Specialization & conditioning.",
 		details:
-			"Intermediate courses are tailored for students who have mastered the basics and are ready to deepen their skills. These lessons explore more dynamic combinations, advanced footwork, and defensive maneuvers such as blocks, parries, and counters. Students will also begin learning sparring strategies, joint locks, throws, and practical applications of techniques in realistic scenarios. With an emphasis on precision, control, and timing, these courses challenge practitioners to refine their style and enhance their overall martial arts proficiency.",
+			"Intermediate courses are tailored for students who have mastered the basics and are ready to deepen their skills. These lessons explore more dynamic combinations, advanced footwork, and defensive maneuvers such as blocks, parries, and counters. Students will also begin learning sparring strategies, joint locks, throws, and practical applications of techniques in realistic scenarios.",
 		imageUrl: course2,
-		figures: {
+		specifics: {
 			experience: "12 months",
 			duration: "24 months",
-			outcome: "specialization",
+			outcome: "Specialization",
 		},
 	},
 	{
-		courseCode: "3962",
 		title: "Advanced Training",
-		description: "How we generated interest in type.",
+		description: "Become expert",
 		details:
-			"Advanced courses are built for dedicated martial artists looking to push their limits and achieve mastery. These in-depth training modules cover high-level techniques, tactical sparring drills, weapon forms, and advanced forms (kata or taolu) specific to each martial art. Students will work on speed, power generation, fluid transitions, and mental focus, often incorporating real-world self-defense simulations. Taught by elite instructors, these courses are ideal for practitioners preparing for competition, teaching, or long-term personal development in martial arts.",
+			"Advanced courses are built for dedicated martial artists looking to push their limits and achieve mastery. These in-depth training modules cover high-level techniques, tactical sparring drills, weapon forms, and advanced forms (kata or taolu) specific to each martial art. Students will work on speed, power generation, fluid transitions, and mental focus, often incorporating real-world self-defense simulations.",
 		imageUrl: course3,
-		figures: {
+		specifics: {
 			experience: "36 months",
 			duration: "12 months",
-			outcome: "expert",
+			outcome: "Expert",
 		},
 	},
 ];
