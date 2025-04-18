@@ -14,11 +14,11 @@ const About = () => {
 						key={index}
 						src={image.src}
 						alt={image.alt}
-						className="w-1/4 rounded-3xl shadow-lg"
+						className="w-1/4 rounded-3xl shadow-lg border border-emerald-950"
 					/>
 				))}
 			</div>
-			<p className="mb-8 max-w-4xl text-center text-xl lg:text-4xl">
+			<p className="mb-8 max-w-4xl text-center text-xl lg:text-3xl">
 				{ABOUT_CONTENT.aboutText}
 			</p>
 		</section>

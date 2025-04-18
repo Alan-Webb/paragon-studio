@@ -13,6 +13,10 @@ import discover1 from "../assets/discover1.jpg";
 import discover2 from "../assets/discover2.jpg";
 import discover3 from "../assets/discover3.jpg";
 
+import course1 from "../assets/course1.jpg";
+import course2 from "../assets/course2.jpg";
+import course3 from "../assets/course3.jpg";
+
 import teacher1 from "../assets/teacher1.jpg";
 import teacher2 from "../assets/teacher2.jpg";
 import teacher3 from "../assets/teacher3.jpg";
@@ -30,7 +34,7 @@ import user6 from "../assets/user6.jpg";
 export const LINKS = [
 	{name: "About", id: "about"},
 	{name: "Discover", id: "discover"},
-	{name: "Projects", id: "projects"},
+	{name: "Courses", id: "courses"},
 	{name: "Pricing", id: "pricing"},
 	{name: "Teachers", id: "teachers"},
 	{name: "Reviews", id: "reviews"},
@@ -97,6 +101,48 @@ export const DISCOVER_CONTENT = [
 			"Our videos provide a comprehensive breakdown of martial arts techniques, allowing you to master both foundational and advanced skills. We go beyond surface-level instruction to offer step-by-step guidance, explaining each movement in precise detail. You’ll learn not just how to perform techniques, but also how to refine them, avoid common mistakes, and optimize your form. This depth of instruction makes complex skills easier to grasp, so you can build confidence as you progress. Whether you’re focusing on striking, footwork, or defense, our technical breakdowns help you advance with clarity and precision.",
 		imgSrc: discover3,
 		alt: "Muay Thai student being drilled by instructor",
+	},
+];
+
+export const COURSES = [
+	{
+		courseCode: "2236",
+		title: "Beginner Training",
+		description: "Martial arts fundamentals.",
+		details:
+			"Our beginner-level courses are designed to lay a strong foundation in martial arts for those with little to no prior experience. Students will be introduced to essential principles such as basic stances, footwork, and striking techniques across various disciplines including karate, kung fu, taekwondo, and boxing. Each lesson focuses on proper form, balance, and coordination, while also emphasizing discipline and body awareness. The goal is to build confidence, improve physical fitness, and prepare students for more complex movements and concepts.",
+		imageUrl: course1,
+		figures: {
+			experience: "None",
+			duration: "12 months",
+			outcome: "Foundation techniques",
+		},
+	},
+	{
+		courseCode: "9193",
+		title: "Intermediate Training",
+		description: "Specialization & conditioning.",
+		details:
+			"Intermediate courses are tailored for students who have mastered the basics and are ready to deepen their skills. These lessons explore more dynamic combinations, advanced footwork, and defensive maneuvers such as blocks, parries, and counters. Students will also begin learning sparring strategies, joint locks, throws, and practical applications of techniques in realistic scenarios. With an emphasis on precision, control, and timing, these courses challenge practitioners to refine their style and enhance their overall martial arts proficiency.",
+		imageUrl: course2,
+		figures: {
+			experience: "12 months",
+			duration: "24 months",
+			outcome: "Paving the path to advanced technique",
+		},
+	},
+	{
+		courseCode: "3962",
+		title: "Advanced Training",
+		description: "How we generated interest in type.",
+		details:
+			"Advanced courses are built for dedicated martial artists looking to push their limits and achieve mastery. These in-depth training modules cover high-level techniques, tactical sparring drills, weapon forms, and advanced forms (kata or taolu) specific to each martial art. Students will work on speed, power generation, fluid transitions, and mental focus, often incorporating real-world self-defense simulations. Taught by elite instructors, these courses are ideal for practitioners preparing for competition, teaching, or long-term personal development in martial arts.",
+		imageUrl: course3,
+		figures: {
+			experience: "36 months",
+			duration: "48 months months",
+			outcome: "Achieve expert ranking in your chosen style",
+		},
 	},
 ];
 
