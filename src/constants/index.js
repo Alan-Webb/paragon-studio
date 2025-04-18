@@ -89,7 +89,7 @@ export const DISCOVER_CONTENT = [
 		title: "Expertise",
 		content: "Get expert advice and insights to boost progress.",
 		description:
-			"Our martial arts training videos are led by expert	instructors with years of experience and proven track	records in various martial arts disciplines. Each instructor brings a wealth of knowledge and a deep understanding of	their craft, guiding you with clear demonstrations, and detailed explanations, expert tips. Their approach is not just about teaching techniques; it’s about helping you understand the 'why' behind every move, creating a learning experience that’s personal, motivational, and results-driven. By training with top-tier instructors, you gain direct access to their insights and skills, helping you reach your goals faster and more effectively.",
+			"Our martial arts training videos are led by expert	instructors with years of experience and proven track	records in various martial arts disciplines. Each instructor brings a wealth of knowledge and a deep understanding of	their craft, guiding you with clear demonstrations, and detailed explanations, expert tips. Their approach is not just about teaching techniques; it’s about helping you understand the 'why' behind every move, creating a learning experience that’s personal, motivational, and results-driven.",
 		imgSrc: discover2,
 		alt: "Karate student performing kata",
 	},
@@ -98,7 +98,7 @@ export const DISCOVER_CONTENT = [
 		title: "Technique",
 		content: "Optimize your training for maximum results.",
 		description:
-			"Our videos provide a comprehensive breakdown of martial arts techniques, allowing you to master both foundational and advanced skills. We go beyond surface-level instruction to offer step-by-step guidance, explaining each movement in precise detail. You’ll learn not just how to perform techniques, but also how to refine them, avoid common mistakes, and optimize your form. This depth of instruction makes complex skills easier to grasp, so you can build confidence as you progress. Whether you’re focusing on striking, footwork, or defense, our technical breakdowns help you advance with clarity and precision.",
+			"Our videos provide a comprehensive breakdown of martial arts techniques, allowing you to master both foundational and advanced skills. We go beyond surface-level instruction to offer step-by-step guidance, explaining each movement in precise detail. You’ll learn not just how to perform techniques, but also how to refine them, avoid common mistakes, and optimize your form. This depth of instruction makes complex skills easier to grasp, so you can build confidence as you progress.",
 		imgSrc: discover3,
 		alt: "Muay Thai student being drilled by instructor",
 	},
@@ -115,7 +115,7 @@ export const COURSES = [
 		figures: {
 			experience: "None",
 			duration: "12 months",
-			outcome: "Foundation techniques",
+			outcome: "Foundation",
 		},
 	},
 	{
@@ -128,7 +128,7 @@ export const COURSES = [
 		figures: {
 			experience: "12 months",
 			duration: "24 months",
-			outcome: "Paving the path to advanced technique",
+			outcome: "specialization",
 		},
 	},
 	{
@@ -140,8 +140,8 @@ export const COURSES = [
 		imageUrl: course3,
 		figures: {
 			experience: "36 months",
-			duration: "48 months months",
-			outcome: "Achieve expert ranking in your chosen style",
+			duration: "12 months",
+			outcome: "expert",
 		},
 	},
 ];

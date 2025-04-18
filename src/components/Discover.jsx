@@ -37,7 +37,7 @@ const Discover = () => {
 						<img
 							src={activeTab.imgSrc}
 							alt={activeTab.title}
-							className="h-auto w-full rounded-lg"
+							className="h-auto w-full rounded-lg border border-emerald-950"
 						/>
 					</div>
 				</div>

@@ -57,7 +57,7 @@ const Navbar = (e) => {
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-								className="inline-flex items-center justify-center bg-emerald-950 p-2 text-orange-50">
+								className="inline-flex items-center justify-center bg-emerald-950 p-2 text-orange-50 rounded-xl">
 								<FaBars className="h-6 w-6" />
 							</button>
 						</div>

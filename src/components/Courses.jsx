@@ -17,7 +17,7 @@ const Courses = () => {
 							<img
 								src={course.imageUrl}
 								alt={course.title}
-								className="w-full rounded-3xl"
+								className="w-full rounded-3xl border border-emerald-950"
 							/>
 						</div>
 					</div>
