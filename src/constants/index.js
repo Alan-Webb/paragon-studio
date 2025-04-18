@@ -143,6 +143,45 @@ export const COURSES = [
 	},
 ];
 
+export const PACKAGES = [
+	{
+		name: "Premium",
+		price: "€14.99/pcm",
+		description:
+			"This premium package offers unlimited access to all resources.",
+		services: [
+			"Unlimited access to all videos",
+			"Comprehensive one-on-one teacher time across all martial skills",
+			"Daily seminars",
+			"24/7 teacher support",
+		],
+	},
+	{
+		name: "Standard",
+		price: "€6.99/pcm",
+		description:
+			"Standard package includes access to one chosen specialization.",
+		services: [
+			"Full access to chosen one martial art",
+			"One-on-one sessions with that styles teacher",
+			"Access to all channels on community Discord",
+			"Weekly seminars",
+		],
+	},
+	{
+		name: "Foundational",
+		price: "€2.99/pcm",
+		description:
+			"This package is best suited for novice practitioners or complete beginners.",
+		services: [
+			"Ful access for one beginner level style",
+			"Basic teacher support",
+			"Access to selected channels on community Discord",
+			"Monthly seminars",
+		],
+	},
+];
+
 export const TEACHER_PROFILES = [
 	{
 		id: 1,

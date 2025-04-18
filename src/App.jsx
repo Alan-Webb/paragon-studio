@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Discover from "./components/Discover";
 import Courses from "./components/Courses";
+import Pricing from "./components/Pricing";
 import Teachers from "./components/Teachers";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
@@ -16,6 +17,7 @@ const App = () => {
 			<About />
 			<Discover />
 			<Courses />
+			<Pricing />
 			<Teachers />
 			<Reviews />
 			<Contact />
