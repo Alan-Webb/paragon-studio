@@ -58,7 +58,7 @@ const Navbar = (e) => {
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
 								className="inline-flex items-center justify-center bg-emerald-950 p-2 text-orange-50 rounded-xl">
-								<FaBars className="h-6 w-6" />
+								<FaBars className="h-6 w-6 cursor-pointer" />
 							</button>
 						</div>
 					</div>
@@ -70,7 +70,7 @@ const Navbar = (e) => {
 						onClick={() => setIsOpen(false)}
 						type="button"
 						className="absolute right-4 top-4 rounded-full bg-emerald-900 p-2 text-orange-50 lg:right-20">
-						<FaTimes className="h-8 w-8" />
+						<FaTimes className="h-8 w-8 cursor-pointer" />
 					</button>
 					{LINKS.map((link, index) => (
 						<a

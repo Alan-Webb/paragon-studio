@@ -5,9 +5,7 @@ import Discover from "./components/Discover";
 import Courses from "./components/Courses";
 import Pricing from "./components/Pricing";
 import Teachers from "./components/Teachers";
-import Reviews from "./components/Reviews";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
 	return (
@@ -19,9 +17,7 @@ const App = () => {
 			<Courses />
 			<Pricing />
 			<Teachers />
-			<Reviews />
-			<Contact />
-			<Footer />
+			<Testimonials />
 		</main>
 	);
 };
