@@ -6,6 +6,7 @@ import Courses from "./components/Courses";
 import Pricing from "./components/Pricing";
 import Teachers from "./components/Teachers";
 import Testimonials from "./components/Testimonials";
+import Faq from "./components/Faq";
 
 const App = () => {
 	return (
@@ -18,6 +19,7 @@ const App = () => {
 			<Pricing />
 			<Teachers />
 			<Testimonials />
+			<Faq />
 		</main>
 	);
 };
