@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing";
 import Teachers from "./components/Teachers";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
+import Contact from "./components/Contact";
 
 const App = () => {
 	return (
@@ -20,6 +21,7 @@ const App = () => {
 			<Teachers />
 			<Testimonials />
 			<Faq />
+			<Contact />
 		</main>
 	);
 };

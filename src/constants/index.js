@@ -331,19 +331,3 @@ export const FAQS = [
 			"Yes! We have a members-only Discord where students can connect, ask questions, share progress, and get support from instructors and peers.",
 	},
 ];
-
-export const CONTACT_INFO = {
-	text: "Have questions or need more information? Get in touch with us, and one of our expert instructors will be happy to assist you.",
-	phone: {
-		label: "Phone",
-		value: "(+44)  020 3966 6669",
-	},
-	email: {
-		label: "Email",
-		value: "paragonstudiotraining@gmail.com",
-	},
-	address: {
-		label: "Address",
-		value: "7 Torrens St, London EC1V 1NQ",
-	},
-};
