@@ -1,6 +1,6 @@
 import {HERO_IMAGES} from "../constants";
 import {IoMdArrowRoundForward} from "react-icons/io";
-import heroImg from "../assets/heroImg.jpg";
+import heroImg from "../assets/heroImg.webp";
 
 const Hero = () => {
 	return (
@@ -27,7 +27,11 @@ const Hero = () => {
 				</button>
 			</div>
 			<div className="w-full md:w-1/2 lg:p-8">
-				<img src={heroImg} alt="Paragon Studio HQ" className="h-auto w-full rounded-xl border border-orange-50" />
+				<img
+					src={heroImg}
+					alt="Paragon Studio HQ"
+					className="h-auto w-full rounded-xl border border-orange-50"
+				/>
 			</div>
 		</section>
 	);

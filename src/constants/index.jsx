@@ -1,35 +1,35 @@
-import teacherImg1 from "../assets/teacherImg1.jpg";
-import teacherImg2 from "../assets/teacherImg2.jpg";
-import teacherImg3 from "../assets/teacherImg3.jpg";
-import teacherImg4 from "../assets/teacherImg4.jpg";
-import teacherImg5 from "../assets/teacherImg5.jpg";
-import teacherImg6 from "../assets/teacherImg6.jpg";
+import teacherImg1 from "../assets/teacherImg1.webp";
+import teacherImg2 from "../assets/teacherImg2.webp";
+import teacherImg3 from "../assets/teacherImg3.webp";
+import teacherImg4 from "../assets/teacherImg4.webp";
+import teacherImg5 from "../assets/teacherImg5.webp";
+import teacherImg6 from "../assets/teacherImg6.webp";
 
-import aboutImg1 from "../assets/aboutImg1.jpg";
-import aboutImg2 from "../assets/aboutImg2.jpg";
-import aboutImg3 from "../assets/aboutImg3.jpg";
+import aboutImg1 from "../assets/aboutImg1.webp";
+import aboutImg2 from "../assets/aboutImg2.webp";
+import aboutImg3 from "../assets/aboutImg3.webp";
 
-import discover1 from "../assets/discover1.jpg";
-import discover2 from "../assets/discover2.jpg";
-import discover3 from "../assets/discover3.jpg";
+import discover1 from "../assets/discover1.webp";
+import discover2 from "../assets/discover2.webp";
+import discover3 from "../assets/discover3.webp";
 
-import course1 from "../assets/course1.jpg";
-import course2 from "../assets/course2.jpg";
-import course3 from "../assets/course3.jpg";
+import course1 from "../assets/course1.webp";
+import course2 from "../assets/course2.webp";
+import course3 from "../assets/course3.webp";
 
-import teacher1 from "../assets/teacher1.jpg";
-import teacher2 from "../assets/teacher2.jpg";
-import teacher3 from "../assets/teacher3.jpg";
-import teacher4 from "../assets/teacher4.jpg";
-import teacher5 from "../assets/teacher5.jpg";
-import teacher6 from "../assets/teacher6.jpg";
+import teacher1 from "../assets/teacher1.webp";
+import teacher2 from "../assets/teacher2.webp";
+import teacher3 from "../assets/teacher3.webp";
+import teacher4 from "../assets/teacher4.webp";
+import teacher5 from "../assets/teacher5.webp";
+import teacher6 from "../assets/teacher6.webp";
 
-import user1 from "../assets/user1.jpg";
-import user2 from "../assets/user2.jpg";
-import user3 from "../assets/user3.jpg";
-import user4 from "../assets/user4.jpg";
-import user5 from "../assets/user5.jpg";
-import user6 from "../assets/user6.jpg";
+import user1 from "../assets/user1.webp";
+import user2 from "../assets/user2.webp";
+import user3 from "../assets/user3.webp";
+import user4 from "../assets/user4.webp";
+import user5 from "../assets/user5.webp";
+import user6 from "../assets/user6.webp";
 
 export const LINKS = [
 	{name: "About", id: "about"},
