@@ -11,6 +11,7 @@ const Contact = () => {
 	});
 
 	const [errors, setErrors] = useState({});
+
 	const [isSending, setIsSending] = useState(false);
 
 	const handleChange = (e) => {
@@ -49,12 +50,11 @@ const Contact = () => {
 					formData,
 					"6q1bs_-46t8jkufU1"
 				)
-				.then((response) => {
+				.then(() => {
 					toast.success("Message sent successfully");
 					setFormData({name: "", email: "", message: ""});
 				})
-				.catch((error) => {
-					console.log("Failed!!!", error);
+				.catch(() => {
 					toast.error("Failed to send message. Please try again.");
 				})
 				.finally(() => {
