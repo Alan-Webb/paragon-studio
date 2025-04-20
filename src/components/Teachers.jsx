@@ -3,7 +3,7 @@ import {TEACHER_PROFILES} from "../constants";
 const Teachers = () => {
 	return (
 		<section className="container mx-auto px-8 py-20" id="teachers">
-			<h2 className="mx-8 my-10 text-center text-4xl font-semibold tracking-tighter">
+			<h2 className="mx-8 my-12 text-center text-4xl font-semibold tracking-tighter">
 				The finest teachers from around the globe
 			</h2>
 			<div className="flex flex-wrap">
@@ -14,12 +14,12 @@ const Teachers = () => {
 						<img
 							src={teacher.image}
 							alt={teacher.name}
-							className="mb-4 h-48 w-48 rounded-full"
+							className="mb-6 h-48 w-48 rounded-full"
 						/>
-						<h3 className="font-semibold tracking-tighter lg:text-xl">
+						<h3 className="font-semibold tracking-tighter lg:text-xl mb-2">
 							{teacher.name}
 						</h3>
-						<p className="italic lg:text-lg">{teacher.description}</p>
+						<p className="italic lg:text-lg mb-2">{teacher.description}</p>
 					</div>
 				))}
 			</div>

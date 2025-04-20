@@ -5,7 +5,7 @@ const Discover = () => {
 	const [activeTab, setActiveTab] = useState(DISCOVER_CONTENT[0]);
 
 	return (
-		<section className="bg-stone-50 p-6 text-emerald-950" id="discover">
+		<section className="bg-stone-50 py-14 px-6 text-emerald-950" id="discover">
 			<div className="container mx-auto mb-20">
 				<h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
 					Discover

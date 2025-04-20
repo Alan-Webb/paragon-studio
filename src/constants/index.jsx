@@ -174,7 +174,7 @@ export const PACKAGES = [
 		description:
 			"This package is best suited for novice practitioners or complete beginners.",
 		services: [
-			"Ful access for one beginner level style",
+			"Full access for one beginner level style",
 			"Basic teacher support",
 			"Access to selected channels on community Discord",
 			"Monthly webinars",
