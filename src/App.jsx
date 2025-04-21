@@ -8,6 +8,7 @@ import Teachers from "./components/Teachers";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
 	return (
@@ -22,6 +23,7 @@ const App = () => {
 			<Testimonials />
 			<Faq />
 			<Contact />
+			<Footer />
 		</main>
 	);
 };
