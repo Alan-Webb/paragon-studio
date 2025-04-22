@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {FAQ_DESCRIPTION, FAQS} from "../constants";
+import faqImage from "../assets/faqImage.webp";
 import {FaPlus, FaMinus} from "react-icons/fa";
 
 const Faq = () => {
@@ -15,6 +16,9 @@ const Faq = () => {
 				<div className="lg:w-1/3">
 					<h2 className="mb-8 text-4xl font-semibold tracking-tighter">FAQ</h2>
 					<p className="mb-12 text-lg">{FAQ_DESCRIPTION}</p>
+					<div>
+						<img src={faqImage} alt="wushu practitioner" />
+					</div>
 				</div>
 				<div className="lg:w-2/3">
 					{FAQS.map((faq, index) => (
