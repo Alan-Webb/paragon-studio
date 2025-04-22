@@ -276,19 +276,9 @@ export const FAQS = [
 			"We offer a wide range of styles including kung fu, tai chi, wushu, Chinese boxing, taekwondo, boxing, karate, judo, ju-jitsu, muay thai, kickboxing, kendo, iaido, and Japanese weapons training.",
 	},
 	{
-		question: "Do I need any prior experience to start?",
-		answer:
-			"Not at all! Our beginner courses are designed for complete newcomers. You'll learn the basics step-by-step with clear demonstrations and guidance.",
-	},
-	{
 		question: "Are your instructors qualified?",
 		answer:
 			"Yes, all of our instructors are highly experienced professionals with years of teaching and competition experience in their respective disciplines.",
-	},
-	{
-		question: "Can I train at my own pace?",
-		answer:
-			"Absolutely. All courses are pre-recorded, allowing you to learn and review techniques at your own speed, anytime and anywhere.",
 	},
 	{
 		question: "What equipment do I need?",
@@ -296,19 +286,9 @@ export const FAQS = [
 			"For most beginner courses, no special equipment is required—just comfortable workout clothing and a safe space to practice. Advanced courses may suggest basic gear or training weapons.",
 	},
 	{
-		question: "How long are the courses?",
-		answer:
-			"Each course varies in length depending on the level and style, but most are structured into short, focused lessons ranging from 10 to 30 minutes each.",
-	},
-	{
 		question: "Will I earn a certificate after completing a course?",
 		answer:
 			"Yes, you will receive a digital certificate of completion after finishing each course, which you can download and share.",
-	},
-	{
-		question: "Can I access the videos on my phone or tablet?",
-		answer:
-			"Yes, our platform is mobile-friendly. You can stream or download lessons on smartphones, tablets, or any internet-connected device.",
 	},
 	{
 		question: "How do I know which level is right for me?",
@@ -319,15 +299,5 @@ export const FAQS = [
 		question: " Can I cancel or pause my membership?",
 		answer:
 			"Yes, you can cancel or pause your subscription at any time through your account dashboard—no questions asked.",
-	},
-	{
-		question: "Are there live sessions or only pre-recorded videos?",
-		answer:
-			"Currently, our courses are pre-recorded for flexible learning. However, we regularly offer live Q&A sessions and webinars with instructors.",
-	},
-	{
-		question: "Is there a community or forum for students?",
-		answer:
-			"Yes! We have a members-only Discord where students can connect, ask questions, share progress, and get support from instructors and peers.",
 	},
 ];
