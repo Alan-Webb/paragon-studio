@@ -32,7 +32,7 @@ const Pricing = () => {
 									))}
 								</ul>
 								<div>
-									<button className="flex items-center gap-2 rounded-full bg-emerald-950 px-4 py-2 text-orange-50 hover:bg-emerald-900">
+									<button className="flex items-center gap-2 rounded-full bg-emerald-950 px-4 py-2 text-orange-50 hover:bg-emerald-900 cursor-pointer">
 										<span>Get Started</span>
 										<IoMdArrowRoundForward />
 									</button>

@@ -43,12 +43,12 @@ export const LINKS = [
 ];
 
 export const HERO_IMAGES = [
-	{image: teacherImg1, alt: "Paragon teacher Amy Van Halen"},
-	{image: teacherImg2, alt: "Paragon teacher Denzel James"},
-	{image: teacherImg3, alt: "Paragon teacher Kato Maeda"},
-	{image: teacherImg4, alt: "Paragon teacher Lillian Chen"},
-	{image: teacherImg5, alt: "Paragon teacher Barry West"},
-	{image: teacherImg6, alt: "Paragon teacher Yuiko Nakagawa"},
+	{image: teacherImg1, alt: "Paragon teacher Amy Van Halen", delay: 0.1},
+	{image: teacherImg2, alt: "Paragon teacher Denzel James", delay: 0.2},
+	{image: teacherImg3, alt: "Paragon teacher Kato Maeda", delay: 0.3},
+	{image: teacherImg4, alt: "Paragon teacher Lillian Chen", delay: 0.4},
+	{image: teacherImg5, alt: "Paragon teacher Barry West", delay: 0.5},
+	{image: teacherImg6, alt: "Paragon teacher Yuiko Nakagawa", delay: 0.6},
 ];
 
 export const ABOUT_CONTENT = {
@@ -107,7 +107,7 @@ export const DISCOVER_CONTENT = [
 export const COURSES = [
 	{
 		title: "Beginner Training",
-		description: "Martial arts fundamentals.",
+		description: "Martial arts fundamentals",
 		details:
 			"Our beginner-level courses are designed to lay a strong foundation in martial arts for those with little to no prior experience. Students will be introduced to essential principles such as basic stances, footwork, and striking techniques across various disciplines including karate, kung fu, taekwondo, and boxing.",
 		imageUrl: course1,
@@ -119,7 +119,7 @@ export const COURSES = [
 	},
 	{
 		title: "Intermediate Training",
-		description: "Specialization & conditioning.",
+		description: "Specialization & conditioning",
 		details:
 			"Intermediate courses are tailored for students who have mastered the basics and are ready to deepen their skills. These lessons explore more dynamic combinations, advanced footwork, and defensive maneuvers such as blocks, parries, and counters. Students will also begin learning sparring strategies, joint locks, throws, and practical applications of techniques in realistic scenarios.",
 		imageUrl: course2,
@@ -138,7 +138,7 @@ export const COURSES = [
 		specifics: {
 			experience: "36 months",
 			duration: "12 months",
-			outcome: "Expert",
+			outcome: "Expertise",
 		},
 	},
 ];

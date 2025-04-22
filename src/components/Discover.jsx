@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {DISCOVER_CONTENT} from "../constants";
+import {motion} from "framer-motion";
 
 const Discover = () => {
 	const [activeTab, setActiveTab] = useState(DISCOVER_CONTENT[0]);
@@ -24,8 +25,11 @@ const Discover = () => {
 						</button>
 					))}
 				</div>
-				<div
-					key={activeTab.id}
+				<motion.div
+					initial={{opacity: 0, y: 50}}
+					animate={{opacity: 1, y: 0}}
+					exit={{opacity: 0, y: 50}}
+					transition={{duration: 0.6}}
 					className="mt-8 flex flex-col items-center lg:flex-row">
 					<div className="p-4 lg:w-1/2">
 						<h2 className="mb-4 text-3xl lg:text-4xl">{activeTab.content}</h2>
@@ -40,7 +44,7 @@ const Discover = () => {
 							className="h-auto w-full rounded-lg border border-emerald-950"
 						/>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</section>
 	);
