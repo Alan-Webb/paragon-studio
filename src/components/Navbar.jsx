@@ -55,7 +55,7 @@ const Navbar = (e) => {
 							<a href="/">
 								<img src={logo} alt="Paragon Studio logo" width={40} />
 							</a>
-							<span className="text-4xl text-black font-bold uppercase ml-6">
+							<span className="text-2xl text-black font-bold uppercase ml-6">
 								Paragon Studio
 							</span>
 						</div>
