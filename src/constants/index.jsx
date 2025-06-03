@@ -80,7 +80,7 @@ export const DISCOVER_CONTENT = [
 		title: "Skills",
 		content: "Tailored strategies to meet your unique training needs.",
 		description:
-			"Our martial arts training videos provide an immersive learning experience that allows you to enhance your skills from anywhere, at your own pace. Each video is crafted by expert instructors to	guide you through essential techniques, drills, and strategies,	helping you build strength, precision, and confidence. Whether you're a beginner or an experienced martial artist, these videos	are designed to challenge you, improve your form, and deepen your understanding of martial arts principles.",
+			"Each video is crafted by expert instructors to	guide you through essential techniques, drills, and strategies. Whether you're a beginner or an experienced martial artist, these videos	are designed to challenge you, improve your form, and deepen your understanding of martial arts principles.",
 		imgSrc: discover1,
 		alt: "Wushu student performing high kick",
 	},
@@ -89,7 +89,7 @@ export const DISCOVER_CONTENT = [
 		title: "Expertise",
 		content: "Get expert advice and insights to boost progress.",
 		description:
-			"Our martial arts training videos are led by expert	instructors with years of experience and proven track	records in various martial arts disciplines. Each instructor brings a wealth of knowledge and a deep understanding of	their craft, guiding you with clear demonstrations, and detailed explanations, expert tips. Their approach is not just about teaching techniques; it’s about helping you understand the 'why' behind every move, creating a learning experience that’s personal, motivational, and results-driven.",
+			"Each instructor brings a wealth of knowledge and a deep understanding of	their craft, guiding you with clear demonstrations, and detailed explanations, expert tips. Their approach is not just about teaching techniques; it’s about helping you understand the 'why' behind every move.",
 		imgSrc: discover2,
 		alt: "Karate student performing kata",
 	},
@@ -98,7 +98,7 @@ export const DISCOVER_CONTENT = [
 		title: "Technique",
 		content: "Optimize your training for maximum results.",
 		description:
-			"Our videos provide a comprehensive breakdown of martial arts techniques, allowing you to master both foundational and advanced skills. We go beyond surface-level instruction to offer step-by-step guidance, explaining each movement in precise detail. You’ll learn not just how to perform techniques, but also how to refine them, avoid common mistakes, and optimize your form. This depth of instruction makes complex skills easier to grasp, so you can build confidence as you progress.",
+			"We go beyond surface-level instruction to offer step-by-step guidance, explaining each movement in precise detail. You’ll learn not just how to perform techniques, but also how to refine them, avoid common mistakes, and optimize your form. This depth of instruction makes complex skills easier to grasp, so you can build confidence as you progress.",
 		imgSrc: discover3,
 		alt: "Muay Thai student being drilled by instructor",
 	},
@@ -109,7 +109,7 @@ export const COURSES = [
 		title: "Beginner Training",
 		description: "Martial arts fundamentals",
 		details:
-			"Our beginner-level courses are designed to lay a strong foundation in martial arts for those with little to no prior experience. Students will be introduced to essential principles such as basic stances, footwork, and striking techniques across various disciplines including karate, kung fu, taekwondo, and boxing.",
+			"Students will be introduced to essential principles such as basic stances, footwork, and striking techniques across various disciplines including karate, kung fu, taekwondo, and boxing.",
 		imageUrl: course1,
 		specifics: {
 			experience: "None",
@@ -121,7 +121,7 @@ export const COURSES = [
 		title: "Intermediate Training",
 		description: "Specialization & conditioning",
 		details:
-			"Intermediate courses are tailored for students who have mastered the basics and are ready to deepen their skills. These lessons explore more dynamic combinations, advanced footwork, and defensive maneuvers such as blocks, parries, and counters. Students will also begin learning sparring strategies, joint locks, throws, and practical applications of techniques in realistic scenarios.",
+			"These lessons explore more dynamic combinations, advanced footwork, and defensive maneuvers such as blocks, parries, and counters. Students will also begin learning sparring strategies and practical applications of techniques in realistic scenarios.",
 		imageUrl: course2,
 		specifics: {
 			experience: "12 months",
@@ -133,7 +133,7 @@ export const COURSES = [
 		title: "Advanced Training",
 		description: "Become expert",
 		details:
-			"Advanced courses are built for dedicated martial artists looking to push their limits and achieve mastery. These in-depth training modules cover high-level techniques, tactical sparring drills, weapon forms, and advanced forms (kata or taolu) specific to each martial art. Students will work on speed, power generation, fluid transitions, and mental focus, often incorporating real-world self-defense simulations.",
+			"These in-depth training modules cover high-level techniques, tactical sparring drills, and advanced forms (kata or taolu) specific to each martial art. Students will work on fluid transitions and mental focus, often incorporating real-world self-defense simulations.",
 		imageUrl: course3,
 		specifics: {
 			experience: "36 months",

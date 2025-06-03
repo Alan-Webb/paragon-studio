@@ -53,7 +53,12 @@ const Navbar = (e) => {
 					<div className="flex h-16 items-center justify-between">
 						<div className="flex items-center">
 							<a href="/">
-								<img src={logo} alt="Paragon Studio logo" width={40} />
+								<img
+									src={logo}
+									alt="Paragon Studio logo"
+									width={40}
+									loading="eager"
+								/>
 							</a>
 							<span className="text-2xl text-black font-bold uppercase ml-6">
 								Paragon Studio
@@ -93,7 +98,7 @@ const Navbar = (e) => {
 								key={index}
 								href={`#${link.id}`}
 								onClick={() => handleLinkClick(e, link.id)}
-								className="transition-colors duration-500 hover:text-orange-500">
+								className="text-3xl md:text-4xl lg:text-6xl transition-colors duration-500 hover:text-orange-500">
 								{link.name}
 							</motion.a>
 						))}

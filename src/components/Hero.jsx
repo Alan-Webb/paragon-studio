@@ -1,6 +1,7 @@
 import {HERO_IMAGES} from "../constants";
 import {IoMdArrowRoundForward} from "react-icons/io";
 import heroImg from "../assets/heroImg.webp";
+import video from "../assets/hero-video.mp4";
 import {motion} from "framer-motion";
 
 const Hero = () => {
@@ -17,6 +18,7 @@ const Hero = () => {
 							src={teacher.image}
 							alt={teacher.name}
 							className="h-8 w-8 md:h-12 md:w-12 rounded-full border-2 border-orange-50"
+							loading="eager"
 						/>
 					))}
 				</div>
@@ -34,15 +36,14 @@ const Hero = () => {
 					<IoMdArrowRoundForward />
 				</motion.button>
 			</div>
-			<div className="w-full md:w-1/2 lg:p-8">
-				<motion.img
-					initial={{opacity: 0, scale: 0.8}}
-					animate={{opacity: 1, scale: 1}}
-					transition={{duration: 2, delay: 0.3}}
-					src={heroImg}
-					alt="Paragon Studio HQ"
-					className="h-auto w-full rounded-xl border border-orange-50"
-				/>
+			<div className="md:w-1/2 lg:p-8">
+				<video
+					autoPlay
+					loop
+					muted
+					className="w-full ms-6 md:mx-auto max-w-[85vw] rounded-xl border border-orange-50">
+					<source src={video} type="video/mp4"></source>
+				</video>
 			</div>
 		</section>
 	);

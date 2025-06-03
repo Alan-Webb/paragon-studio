@@ -26,6 +26,7 @@ const About = () => {
 						src={image.src}
 						alt={image.alt}
 						className="w-1/4 rounded-3xl shadow-lg border border-emerald-950"
+						loading="eager"
 					/>
 				))}
 			</div>
