@@ -41,7 +41,7 @@ const Hero = () => {
 					autoPlay
 					loop
 					muted
-					className="w-full ms-6 md:mx-auto max-w-[85vw] rounded-xl border border-orange-50">
+					className="w-full -mt-12 ms-6 md:mx-auto max-w-[85vw] rounded-xl border border-orange-50">
 					<source src={video} type="video/mp4"></source>
 				</video>
 			</div>
